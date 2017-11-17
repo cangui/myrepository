@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class User {
-	private List<Role> roles = new ArrayList<Role>();
+	private List<Role> roles = new ArrayList<Role>();//用户角色
 	private String username;//用户名
 	private long userid;//用户身份证
 	private String userphone;//用户手机号
