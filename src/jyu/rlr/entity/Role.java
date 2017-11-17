@@ -1,14 +1,14 @@
 package jyu.rlr.entity;
 
-import java.util.List;
+
 
 import jyu.rlr.enums.RoleState;
 import jyu.rlr.enums.RoleType;
 
 public class Role {
-	private long id;
+	private long id;//主键
 	private RoleType type;//角色类型
-	private RoleState state;//角色状态
+	private RoleState roleState;//角色状态
 	
 	
 	public long getId() {
@@ -22,6 +22,12 @@ public class Role {
 	}
 	public void setType(RoleType type) {
 		this.type = type;
+	}
+	public RoleState getRoleState() {
+		return roleState;
+	}
+	public void setRoleState(RoleState roleState) {
+		this.roleState = roleState;
 	}
 	
 }

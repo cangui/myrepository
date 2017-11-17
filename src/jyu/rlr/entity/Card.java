@@ -1,10 +1,17 @@
 package jyu.rlr.entity;
 
 public class Card {
+	private long id;
 	private long cardid;//银行卡号
 	private String cardname;//银行卡名
 	
 	
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
 	public long getCardid() {
 		return cardid;
 	}

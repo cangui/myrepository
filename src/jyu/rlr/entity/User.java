@@ -4,8 +4,8 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-public class User {
-	private long id;
+public class User {	
+	private long id;//主键
 	private long userid;//用户身份证
 	private String username;//用户名
 	private String userphone;//用户手机号
@@ -14,6 +14,12 @@ public class User {
 	private Account useraccount;//用户账户
 	private List<Role> roles = new ArrayList<Role>();//用户角色
 	
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
 	
 	public String getUsername() {
 		return username;
@@ -50,6 +56,12 @@ public class User {
 	}
 	public void setUseraccount(Account useraccount) {
 		this.useraccount = useraccount;
+	}
+	public List<Role> getRoles() {
+		return roles;
+	}
+	public void setRoles(List<Role> roles) {
+		this.roles = roles;
 	}
 	
 }

@@ -6,7 +6,17 @@ package jyu.rlr.entity;
  *
  */
 public class Change {
+	private long id;
 	private double balance;//余额
+	
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
 
 	public double getBalance() {
 		return balance;
