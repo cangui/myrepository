@@ -1,5 +1,10 @@
 package jyu.rlr.entity;
 
+/**
+ * 
+ * @author admin
+ *
+ */
 public class Change {
 	private double balance;//余额
 

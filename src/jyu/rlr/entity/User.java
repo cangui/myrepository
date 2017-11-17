@@ -5,13 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class User {
-	private List<Role> roles = new ArrayList<Role>();//用户角色
-	private String username;//用户名
+	private long id;
 	private long userid;//用户身份证
+	private String username;//用户名
 	private String userphone;//用户手机号
 	private String useremail;//用户邮箱
 	private File userimage;//用户图片
 	private Account useraccount;//用户账户
+	private List<Role> roles = new ArrayList<Role>();//用户角色
 	
 	
 	public String getUsername() {
