@@ -13,5 +13,5 @@ public class Application {
 	private User applicationUser;//申请者 
 	private String applicationReason;//申请理由
 	private File proofMaterial;//证明材料
-	private Date applicationDate;//申请日期
+	private Date applicationDate;//申请日期xin
 }
